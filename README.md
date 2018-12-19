@@ -7,7 +7,7 @@
 
 ### About:
 
-Package for a simple shopping-cart implementation for Laravel. It's a package created for easy development.
+Package for a simple shopping-cart implementation for Laravel 5.7. It's a package created for easy development.
 This package is my second created package. So I will glad to hear any advices and suggestions.
 
 
@@ -16,6 +16,12 @@ This package is my second created package. So I will glad to hear any advices an
 ```shell
 composer require boolfalse/laravel-shopping-cart
 ```
+
+Add service provider to 'providers' array in config/app.php
+Boolfalse\LaravelShoppingCart\LSCServiceProvider::class,
+
+Add alias to 'aliases' array in config/app.php
+'Cart' => Boolfalse\LaravelShoppingCart\Facades\Cart::class,
 
 ```shell
 php artisan vendor:publish --provider="Boolfalse\LaravelShoppingCart\LSCServiceProvider" --tag="config"
