@@ -33,7 +33,7 @@ php artisan migrate
 ```
 
 You can do custom changes in 'config/cart.php' file.
-
+<br /><b>Note: </b> Don't forget to be sure that in config/app.php 'product_model' have right model namespace.
 
 
 ## DOCUMENTATION
