@@ -13,3 +13,8 @@ This package is my first created package. So I will glad to hear any advices and
 ```shell
 composer require boolfalse/laravel-shopping-cart
 ```
+
+```shell
+php artisan vendor:publish --provider="Boolfalse\LaravelShoppingCart\LSCServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Boolfalse\LaravelShoppingCart\LSCServiceProvider" --tag="migrations"
+```
