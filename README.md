@@ -18,8 +18,10 @@ So I've collected this one (see used resources below). I will glad to see any ad
 composer require boolfalse/laravel-shopping-cart
 ```
 
+For Laravel 5.7 you don't need to add service provider & alias:
+<br />
 Add service provider to 'providers' array in config/app.php <br />Boolfalse\LaravelShoppingCart\LSCServiceProvider::class,
-
+<br />
 Add alias to 'aliases' array in config/app.php <br />'Cart' => Boolfalse\LaravelShoppingCart\Facades\Cart::class,
 
 ```shell
