@@ -2,7 +2,7 @@
 
 return [
 
-    'product_model' => 'App\Models\Product', //ss
+    'product_model' => 'App\Models\Book', //ss
 
     /*
     |--------------------------------------------------------------------------
